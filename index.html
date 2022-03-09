@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        text-transform: capitalize;
+        box-sizing: border-box;
+    }
+    body{
+        background-image: url(snow.jpg);
+        background-size: cover;
+        height: 100%;
+        width: 100vw;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+    .box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    .items{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 2rem;
+        padding: 1.5vw;
+        
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>new year eve</h1>
+
+
+        </div>
+
+        <div class="box">
+            <div class="items">
+                <div class="item" id="day">0</div>
+                <div class="day">day</div>
+            </div>
+            
+            <div class="items">
+                <div class="item" id="hour">1</div>
+                <div class="day">hour</div>
+            </div>
+            <div class="items">
+                <div class="item" id="min">2</div>
+                <div class="day">min</div>
+            </div>
+            <div class="items">
+                <div class="item" id="sec">3</div>
+                <div class="day">sec</div>
+            </div>
+           
+           
+           
+           
+
+        </div>
+
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
